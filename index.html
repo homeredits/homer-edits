@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>homer-edits.store</title>
+  </head>
+  <div id="particles-js"></div>
+
+  <div id="content">
+    <body class="light" id="top">
+      <header class="header center">
+        <h3>
+          <a href="" class="link"
+            >Homer Edits</a
+          >
+        </h3>
+  
+        <nav class="nav center">
+          <ul class="nav__list center">
+            <li class="nav__list-item">
+              <a class="link link--nav" href="#projects">Projects</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="link link--nav" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+  
+      <main>
+        <!-- About -->
+        <div class="about center">
+          <h1>Hi, I'm <span class="about__name">Homer</span></h1>
+          <h2 class="about__role">Video Editor ● Graphic Designer ● AI Enthusiast</h2>
+          <p class="about__desc">
+            With three years of experience, I've edited a variety of content, 
+            from gaming videos to highly polished edits. Recently, I've also ventured into the world of graphic design. 
+            If you can envision it, I can bring it to life, and I'm constantly eager to expand my skills. 
+            Let's collaborate and make something amazing!
+          </p>
+          </div>
+  
+        <!-- Projects -->
+        <section id="projects" class="section projects">
+          <h2 class="section__title">Featured Projects</h2>
+  
+          <div class="projects__grid">
+            <div class="project">
+              <h3>[4K] Baby Driver Edit - (Love Game)</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/S5ui_AgfOvA" frameborder="0" allowfullscreen></iframe>
+              <ul class="project__stack">
+                <li class="project__stack-item">Premiere Pro</li>
+                <li class="project__stack-item">Photoshop</li>
+                <li class="project__stack-item">Topaz Video Enhance AI</li>
+              </ul>
+            </div>
+  
+            <div class="project">
+              <h3>[4K] Whiplash Edit - (Memory Reboot)</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/XGHJc9o427w" frameborder="0" allowfullscreen></iframe>
+              <ul class="project__stack">
+                <li class="project__stack-item">Premiere Pro</li>
+                <li class="project__stack-item">Photoshop</li>
+              </ul>
+            </div>
+  
+            <div class="project">
+              <h3>PAMELA IEŠKO ČIŪVO SU IMPORTU?!</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/D4X3MgMeQ4k" frameborder="0" allowfullscreen></iframe>
+              <ul class="project__stack">
+                <li class="project__stack-item">Premiere Pro</li>
+                <li class="project__stack-item">Photoshop</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+  
+        <section class="section contact center" id="contact">
+          <h2 class="section__title">Contact</h2>
+          <a href="https://discord.gg/MKJeju4g79">
+            <span class="btn btn--outline"><div class="discord"><i class='bx bxl-discord-alt' ></i></div></i>homer.edits</span>
+          </a>
+        </section>
+      </main>
+  
+      <footer class="footer">
+        <a>© 2023 Homer Edits</a>
+      </footer>
+    </body>
+  </div>
+
+  <script src="particles.js"></script>
+  <script>
+      particlesJS("particles-js", {
+          particles: {
+              number: {
+                  value: 60, // Adjust the number of particles
+              },
+              size: {
+                  value: 1, // Adjust the size of the particles
+                  random: false, // Set to false to avoid random initial sizes
+              },
+              move: {
+                  enable: true,
+                  speed: 2, // Adjust the speed of particle movement
+              },
+          },
+          interactivity: {
+              detect_on: "window",
+              events: {
+                  onhover: {
+                      enable: true,
+                      mode: "repulse",
+                  },
+                  onclick: {
+                      enable: false,
+                      mode: "push",
+                  },
+                  resize: true,
+              },
+          },
+      });
+  </script>
+</html>
